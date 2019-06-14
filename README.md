@@ -49,3 +49,11 @@ Rankings based off the APIndex:
 
 (At the time I couldn't figure out how to consistently convert school ID to High School Name)
 But if you are wondering, 350560 is Boston Latin and the next three are Hopkinton, Lexington, and Belmont
+
+### Future Plans
+
+Ideally, I go back and fix the code and add in some for loops and better pandas usuage.
+
+Beyond that, I have been musing about making a full on program that would allow one to via a GUI compare different years of performance of a selected school.
+
+I also would like to revisit some of the weighting methodology to better reward difficult scores and negate the benefits of easily obtained ones.
