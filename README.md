@@ -3,18 +3,16 @@ Used readily availible data from the Massachusettes Department of Education(DOE)
 ### Resources
 [Massachusettes AP Scoring Data from DOE](http://profiles.doe.mass.edu/statereport/ap.aspx)
 
-[2018 AP Exam Scoring Distributions](https://www.totalregistration.net/AP-Exam-Registration-Service/AP-Exam-Score-Distributions.php?year=2018) While these numbers are not directly from *The College Board*, the statistics are valid. You can check if you want. These numbers were in an easier to use format.
+[2018 AP Exam Scoring Distributions](https://www.totalregistration.net/AP-Exam-Registration-Service/AP-Exam-Score-Distributions.php?year=2018) While these numbers are not directly from *The College Board*, the statistics are valid.
 
 ### Preface
-This was a very earlier python data science project of mine, so the analytical and programming practices utilized are at best sub-par. I was more focused on reaching the results than using or learning proper python and pandas programming methods. I plan to eventually optimize the whole program.
+This was a very earlier python data science project of mine, so the analytical and programming practices utilized aren't as concise as I'd like. I was more focused on reaching the results than using or learning proper python and pandas programming methods, as I think that was the most interesting aspect of this project.
 
-In addition, certain aspects of the analysis have instances of bias. While measures were taken for courses and scores to be weighted in an objective matter, the data is not definitive. In this project especially, difficulty existed in determing the value of courses and scores as too generalize them as all equal would be too great of a simplification to reach strong results, but to make the analysis to nuanced would introduce too much subjectivity on the part of myself. In this project, I attempt to strike a balance between these two issues.
-
-The grammar in this Readme may not be so good. This was quickly written up in a text editor.
+In addition, certain aspects of the analysis have instances of bias. While measures were taken for courses and scores to be weighted in an objective matter, the data is not definitive. In this project especially, difficulty existed in determining the value of courses and scores as too generalizing them as all equal would be too great of a simplification to reach strong results, but making the analysis too nuanced would introduce too much subjectivity part of me. In this project, I attempt to strike a balance between these two issues.
 
 ### Background
 The reason this project was created was my current disfatistation with current high school ranking methodology. While current ranking methodology does a decent job at figuring out which schools are overall "good", they are inadequate at determing which schools are great. Current methodolgies only look at very simplified data points like AP participation and pass rates.
-AP participation can easily be increased through easy classes, district fee-waivers, and other methods. Pass rates are increadibly decieving due to the stark rigor differences in the AP course providings. A school could easily have an inflated pass rate due to easier AP course offerings ie AP Enviromental Science. In addition, many exams require a score of less than 60% correct to pass, which in my opinion and experience is far too low of a bar to be deemed a success.
+AP participation can easily be increased through easy classes, district fee-waivers, and other methods. Pass rates are increadibly decieving due to the stark rigor differences in the AP courses availlible. A school could easily have an inflated pass rate due to easier AP course offerings ie AP Enviromental Science. In addition, many exams require a score of less than 60% correct to pass, which in my opinion and experience is far too low of a bar to be deemed a success.
 
 My method of finding the overall "greatness" independently weights each subject based on the nationwide scoring satistics and only uses only scores of 4 and 5. Then this performance was divided by total enrollement to gauge the overall sucess.
 
