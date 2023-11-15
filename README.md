@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 ## Table of Contents
 - [Overview](#overview)
 - [Resources](#resources)
@@ -44,13 +48,17 @@ In the pursuit of a more granular understanding of academic prowess, the project
 
 - **Biology Index**: This metric calculates the prowess in biology by combining the weighted numbers of students who earned scores of 5 and 4, adjusted by the total enrollment. It's a formula that appreciates higher achievement in the subject by applying the predetermined constants:
   
-  \[ \text{Biology Index} = \frac{(\text{\# of 5s} \times \text{5constant}) + (\text{\# of 4s} \times \text{4constant})}{\text{total enrollment}} \]
+<span>
+  Biology Index = \(\frac{(\text{\# of 5s} \times \text{5constant}) + (\text{\# of 4s} \times \text{4constant})}{\text{total enrollment}}\)
+</span>
 
 - **Math Index**: A summative indicator of mathematical achievement, the Math Index is the sum of the indexes for Calculus AB and Calculus BC, reflecting the school's strength in advanced mathematical education.
 
 - **AP Index**: Serving as the overarching measure of AP success, the AP Index is the sum of indexes for all subject areas. It synthesizes performance across science, mathematics, English, and history to yield a comprehensive score:
   
-  \[ \text{AP Index} = \text{Science Index} + \text{Math Index} + \text{English Index} + \text{History Index} \]
+<span>
+  AP Index = \(\text{Science Index} + \text{Math Index} + \text{English Index} + \text{History Index}\)
+</span>
 
 The rankings derived from the AP Index provide a leaderboard of scholastic excellence. The visualization of these rankings, while currently keyed to school IDs, offers an insightful snapshot of where schools stand in fostering advanced academic achievement.
 
